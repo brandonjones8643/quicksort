@@ -6,14 +6,6 @@ const qs = a => {
   const l = [];
   const r = [];
 
-  //  for (let i = 0; i < a.length - 1; i++) {
-  //    if (a[i] < p) {
-  //      l.push(a[i]);
-  //    } else {
-  //      r.push(a[i]);
-  //    }
-  //  }
-
   a.forEach(i => {
     if (i < p) {
       l.push(i);
